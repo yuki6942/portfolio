@@ -5,51 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yuki</title>
-    <link rel="shortcut icon" href="assets/pfp-circle.png">
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/mediaqueries.css" />
-    <script src="script.js" defer></script>
   </head>
   <body>
     <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/pfp-circle.png" alt="profile picture" class="img"/>
-      </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Yuki</h1>
-        <p class="section__text__p2">Doing stuff • 18  • any</p>
+        <p class="section__text__p2">Developer • 18  • any</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume.pdf')"
+            onclick="window.open('https://www.github.com/yuki6942/Mira')"
           >
-            Download CV
+            Mira Discord Bot
           </button>
           <button class="btn btn-color-1" onclick="window.open('mailto:contact@yuki6942.me')">
             Contact me
           </button>
         </div>
         <div id="socials-container">
-          <img
-            src="./assets/github-mark-white.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="window.open('https://www.github.com/yuki6942')"
-          />
-          <img
-            src="./assets/2021 Twitter logo - white.png"
-            alt="My Twitter profile"
-            class="icon"
-            onclick="window.open('https://www.twitter.com/yuki6942')"
-          />
-          <img
-            src="./assets/discord-mark-white.png"
-            alt="My discord profile"
-            class="icon"
-            onclick="window.open('https://discord.com/users/594627968668794896')"
-          />
+          <div class="tooltip">
+            <a target="_blank" href="https://discord.com/users/594627968668794896" data-tooltip="@yuki6942">
+              <img class="icon" src="/assets/discord.png" class="discord" />
+            </a>
+            <span class="tooltiptext">@yuki6942</span>
+          </div>
+        
+          <div class="tooltip">
+            <a target="_blank" href="https://github.com/yuki6942" data-tooltip="yuki6942">
+              <img class="icon" src="/assets/github.png" class="github" />
+            </a>
+            <span class="tooltiptext">yuki6942</span>
+          </div>
+        
+          <div class="tooltip">
+            <a target="_blank" href="https://twitter.com/yuki6942" data-tooltip="yuki6942">
+              <img class="icon" src="/assets/twitter.png" class="twitter" />
+            </a>
+            <span class="tooltiptext">yuki6942</span>
+          </div>
         </div>
+        
       </div>
     </section>
   </body>
