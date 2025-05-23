@@ -1,7 +1,7 @@
 export default function SocialIcons() {
   return (
     <div
-      className="flex gap-4 mb-6 fly-in-up"
+      className="flex gap-4 mb-6 " // fly-in-up
       style={{ animationDelay: "0.38s" }}
     >
       <a

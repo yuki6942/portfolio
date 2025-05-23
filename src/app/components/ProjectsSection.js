@@ -4,7 +4,7 @@ export default function ProjectsSection() {
   return (
     <section
       id="projects"
-      className="mt-4 grid gap-6 max-w-xl w-full fly-in-up"
+      className="mt-4 grid gap-6 max-w-xl w-full" // fly-in-up
       style={{ animationDelay: "0.5s" }}
     >
       <div className="transition-transform duration-300 hover:-translate-y-2 hover:scale-105">

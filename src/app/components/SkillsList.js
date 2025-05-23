@@ -1,7 +1,7 @@
 export default function SkillsList() {
   return (
     <section
-      className="w-full max-w-xl mb-8 fly-in-up"
+      className="w-full max-w-xl mb-8" // fly-in-up
       style={{ animationDelay: "0.45s" }}
     >
       <h2 className="text-2xl font-bold mb-4 text-center text-gray-900 dark:text-gray-100 tracking-tight">

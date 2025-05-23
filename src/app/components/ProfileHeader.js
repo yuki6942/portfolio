@@ -20,17 +20,17 @@ export default function ProfileHeader() {
       <img
         src="https://avatars.githubusercontent.com/u/56565042?v=4"
         alt="Profile"
-        className="w-24 h-24 rounded-full mb-4 shadow-lg fly-in-up"
+        className="w-24 h-24 rounded-full mb-4 shadow-lg" // fly-in-up
         style={{ animationDelay: "0.1s" }}
       />
       <h1
-        className="text-3xl font-semibold mb-2 fly-in-up text-gray-900 dark:text-gray-100"
+        className="text-3xl font-semibold mb-2  text-gray-900 dark:text-gray-100" // fly-in-up
         style={{ animationDelay: "0.2s" }}
       >
         Hi, I'm Philipp
       </h1>
       <p
-        className="text-lg mb-2 fly-in-up text-gray-700 dark:text-gray-300"
+        className="text-lg mb-2  text-gray-700 dark:text-gray-300" //fly-in-up
         style={{ animationDelay: "0.3s" }}
       >
         <time dateTime="2005-06-30" suppressHydrationWarning>
