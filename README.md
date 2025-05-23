@@ -32,10 +32,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the r
 - Add or update projects in `src/app/components/ProjectsSection.js`.
 - Change the favicon or avatar by editing the `<Head>` in `src/app/page.js`.
 
-## Deployment
-
-Deploy easily on [Vercel](https://vercel.com/) or your preferred platform.
 
 ## License
 
-MIT
+[MIT](LICENSE)
