@@ -30,11 +30,23 @@ export default function DarkModeSwitch() {
         </svg>
       ) : (
         <svg
-          className="w-6 h-6 text-yellow-400"
-          fill="currentColor"
+          className="w-6 h-6 text-yellow-500"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth={2}
           viewBox="0 0 24 24"
         >
-          <path d="M12 4.5a1 1 0 0 1 1 1V7a1 1 0 1 1-2 0V5.5a1 1 0 0 1 1-1zm0 12a1 1 0 0 1 1 1V19a1 1 0 1 1-2 0v-1.5a1 1 0 0 1 1-1zm7.07-7.07a1 1 0 0 1 1.41 0l1.06 1.06a1 1 0 1 1-1.41 1.41l-1.06-1.06a1 1 0 0 1 0-1.41zM4.93 17.66a1 1 0 0 1 0-1.41l1.06-1.06a1 1 0 1 1 1.41 1.41l-1.06 1.06a1 1 0 0 1-1.41 0zm12.73 1.41a1 1 0 0 1-1.41 0l-1.06-1.06a1 1 0 1 1 1.41-1.41l1.06 1.06a1 1 0 0 1 0 1.41zM6.34 6.34a1 1 0 0 1 0 1.41L5.28 8.81A1 1 0 1 1 3.87 7.4l1.06-1.06a1 1 0 0 1 1.41 0zM21 12a1 1 0 0 1-1 1h-1.5a1 1 0 1 1 0-2H20a1 1 0 0 1 1 1zm-16 0a1 1 0 0 1-1 1H2.5a1 1 0 1 1 0-2H4a1 1 0 0 1 1 1zm8-4a4 4 0 1 1 0 8 4 4 0 0 1 0-8z" />
+          <circle cx="12" cy="12" r="5" fill="currentColor" />
+          <g stroke="currentColor" strokeLinecap="round">
+            <line x1="12" y1="1.5" x2="12" y2="3.5" />
+            <line x1="12" y1="20.5" x2="12" y2="22.5" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1.5" y1="12" x2="3.5" y2="12" />
+            <line x1="20.5" y1="12" x2="22.5" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </g>
         </svg>
       )}
     </button>
