@@ -30,12 +30,18 @@ export default function ProfileHeader() {
         Hi, I'm Philipp
       </h1>
       <p
-        className="text-lg mb-2  text-gray-700 dark:text-gray-300" //fly-in-up
+        className="text-lg mb-2 text-gray-700 dark:text-gray-300"
         style={{ animationDelay: "0.3s" }}
       >
-        <time dateTime="2005-06-30" suppressHydrationWarning>
-          {age !== null ? `${age} • he/him.` : "• he/him."}
-        </time>
+        <span>
+          <time dateTime="2005-06-30" suppressHydrationWarning>
+            {age !== null ? `${age}` : ""}
+          </time>
+          &nbsp;• he/him
+        </span>
+      </p>
+      <p className="text-lg mb-2 text-gray-700 dark:text-gray-300">
+        Germany • Software Developer
       </p>
     </>
   );
