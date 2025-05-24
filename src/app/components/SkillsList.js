@@ -42,7 +42,7 @@ export default function SkillsList() {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 128 128"
-            className="w-8 h-8 text-gray-400 group-hover:text-white transition-colors duration-200 transform group-hover:scale-110"
+            className="w-8 h-8 text-gray-400 group-hover:text-black dark:group-hover:text-white transition-colors duration-200 transform group-hover:scale-110"
             aria-label="Next.js"
           >
             <path
